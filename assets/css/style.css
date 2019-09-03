@@ -19,7 +19,7 @@ header {
     padding: 20px;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
 nav {
@@ -49,9 +49,22 @@ ul {
     color: #dddddd;
 }
 
+form {
+    color: #777777;
+}
+
+input, textarea {
+    width: 950px;
+	padding: 10px 0px 10px 10px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: thin;
+}  
+
 h1 {
     color: #4aaaa5;
-
+    border-bottom: solid #dddddd 3px;
+    padding-bottom: 20px;
 }
 
 .content {

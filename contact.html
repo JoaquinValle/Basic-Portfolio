@@ -11,22 +11,24 @@
 
 <Body> 
     
-    <div class="clearfix" class="title">
+    <div class="title">
         <header>
             Joaquin Valle Pinto
         </header>
 
-        <div id="tabs">
-            <h2>
-                <a href="index.html">About</a>
-            </h2>
-            <h2>
-                <a href="Portfolio.html">Portfolio</a>
-            </h2>
-            <h2>
-                <a href="contact.html">Contact</a>
-            </h2>
-        </div>
+        <nav>
+            <ul>
+                <li class="line">
+                    <a href="index.html">About</a>
+                </li>
+                <li class="line">
+                    <a href="Portfolio.html">Portfolio</a>
+                </li>   
+                <li>
+                    <a href="contact.html">Contact</a>
+                    </li>
+            </ul>
+        </nav>
     </div>
 
     <div class="content">
@@ -34,23 +36,36 @@
             Contact
         </h1>
 
-        <hr>
         <div>
-                <form id="contact">    
-                        <label for="name">Name</label><br>
-                        <input id="name" type="text" autocomplete="username" placeholder="Name" required><br>
-                        <label for="email">Email</label><br>
-                        <input id="email" type="email" name="email" autocomplete="email"
-                               placeholder="example@gmail.com" required><br>
-                        <label for="textfield">Message</label><br>
-                        <textarea id="textfield" rows="7"></textarea><br>
-                        <button class="button" type="submit" name="submit">Submit</button>
-                    </form>
+            <form class="contact">    
+                <label for="name">
+                    Name
+                </label>
+                    <br>
+                        <input type="text" autocomplete="username" placeholder="Name" required>
+                    <br>
+                <label for="email">
+                    Email
+                </label>
+                    <br>
+                        <input type="email" name="email" autocomplete="email" placeholder="example@gmail.com" required>
+                    <br>
+                <label for="textfield">
+                    Message
+                </label>
+                    <br>
+                        <textarea id="textfield" rows="10">
+                        </textarea>
+                    <br>
+                        <button class="button" type="submit" name="submit">
+                            Submit
+                        </button>
+            </form>
         </div>
 
-
+    </div>
     <footer>
-        Copyright ©
+            Copyright © Joaquin Valle 2019
     </footer>
 
 </Body>
