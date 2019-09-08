@@ -19,7 +19,7 @@ header {
     padding: 20px;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 85px;
+    margin-left: 70px;
 }
 
 h1 {
@@ -37,6 +37,10 @@ nav {
     margin-right: 70px;
 }
 
+ul {
+    list-style: none;
+}
+
 li {
     float: left;
     width: 33%
@@ -46,13 +50,14 @@ li {
     border-right: 1px solid #dddddd;
 }
 
-ul {
-    list-style: none;
-}
 
 :any-link {
     text-decoration: none;
-    color: #dddddd;
+    color: #cccccc;
+}
+
+p {
+    color: #777777;
 }
 
 .content {
@@ -82,11 +87,12 @@ footer {
     background-color: #666666;
     padding-top: 30px;
     text-align: center;
-    color: #ffffff;
-    border-top-width: 5px;
+    color: #dddddd;
+    border-top-width: 8px;
     border-top-color: #4aaaa5;
     border-top-style: solid;
     margin-top: 100px;
+    font-size: 10px;
 }
 
 form {
@@ -94,12 +100,16 @@ form {
 }
 
 input, textarea {
-    width: 950px;
+    width: 940px;
 	padding: 10px;
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
 }  
+
+textarea {
+    margin-bottom: 5px;
+}
 
 .bio {
     width: 250px;
@@ -124,7 +134,15 @@ input, textarea {
 .box {
     position: absolute;
 	width: 250px;
-	height: 200px;
+    height: 200px;
+}
+
+.image:hover {
+    width: 260px;
+    height: 210px;
+
+}.box:hover {
+    width: 260px;
 }
 
 .box-1 {
@@ -156,4 +174,16 @@ span {
 	background-color: #4aaaa5;
 	color: #ffffff;
 	text-align: center;
+}
+
+button {
+    padding: 5px 20px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+form {
+    padding-bottom: 20px;
 }
